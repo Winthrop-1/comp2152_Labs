@@ -162,6 +162,12 @@ lootRoll = random.choice(range(1, len(loot_options) + 1))
 loot = loot_options.pop(lootRoll - 1)
 print("Your belt: ", belt)
 
+#Lab 04 - Q6 - item 2
+print("you find a loot bag! Look inside to find 2 items!")
+input("Roll for the first item (press Enter)")
+lootRoll = random.choice(range(1, len(loot_options) + 1))
+loot = loot_options.pop(lootRoll - 1)
+print("Your belt: ", belt)
 
 input("Analyze the roll (Press enter)")
 # Compare Player vs Monster's strength
