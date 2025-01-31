@@ -81,6 +81,9 @@ loot_options = ["Health Potion", "Poison Potion", "Secret Note", "Leather Boots"
 good_loot_options = ["Health Potion", "Leather Boots"]
 bad_loot_options = ["Poison Potion"]
 
+# Lab04 Q4
+belt = []
+
 #LAB04 - Q1
 # define the monster
 monster_powers= {
@@ -164,7 +167,7 @@ print("--- You have a strong player: " + str((combat_strength + health_points) >
 input("Roll for the Monster Power (press Enter)")
 power_roll = random.choice(["fire Magic", "Freezing Time", "super Hearing"])
 
-#L4 - 03 - Incresing the Monster Strenght
+#L4 - q3 - Incresing the Monster Strenght
 m_combat_strength = min(6, m_combat_strength + monster_powers[power_roll])
 print("The Monster Combat Strength is: " + str(m_combat_strength) + " Using the " + power_roll+ "Magic Power!")
 
