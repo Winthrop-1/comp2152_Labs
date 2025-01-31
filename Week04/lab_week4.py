@@ -169,6 +169,10 @@ lootRoll = random.choice(range(1, len(loot_options) + 1))
 loot = loot_options.pop(lootRoll - 1)
 print("Your belt: ", belt)
 
+# LAB04 - Q7 sort the belt
+belt.sort()
+print("Your belt items sorted as follow: ", belt)
+s
 input("Analyze the roll (Press enter)")
 # Compare Player vs Monster's strength
 print("--- You are matched in strength: " + str(combat_strength == m_combat_strength))
